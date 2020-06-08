@@ -37,9 +37,30 @@ else
 @code {
     private WeatherForecast[] forecasts;
 
+    @* コンポーネントの初期化メソッド *@
     protected override async Task OnInitializedAsync()
     {
+        Console.WriteLine("OnInitializedAsync");
         forecasts = await Http.GetFromJsonAsync<WeatherForecast[]>("sample-data/weather.json");
+    }
+
+    protected override void OnParametersSet()
+    {
+        Console.WriteLine("OnParametersSet");
+        base.OnParametersSet();
+    }
+
+    protected override void OnAfterRender(bool firstRender)
+    {
+        Console.WriteLine("OnAfterRender");
+        base.OnAfterRender(firstRender);
+    }
+
+
+    protected override bool ShouldRender()
+    {
+        Console.WriteLine("ShouldRender");
+        return base.ShouldRender();
     }
 
     public class WeatherForecast
