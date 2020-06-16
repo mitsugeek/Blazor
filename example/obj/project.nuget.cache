@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "kSYNP7v6V/4Uta7+CAQxrxtT2rmt7cNHV0j42FgSo6t8n/xU+xyTuNhINNUrBcj5jLqv8mH54ByRQx5WvxSH2g==",
+  "dgSpecHash": "HccUa9LTJU2+YWU/Gn45TEOLXvnPJQtf/vt2pgYk30S0W91Slxv5SpTSwdwzv1hxqDT1WyDsvnomynx7sU9HMg==",
   "success": true,
   "projectFilePath": "/Users/mitsugi/Blazor/example/example.csproj",
   "expectedPackageFiles": [
+    "/Users/mitsugi/.nuget/packages/commonmark.net/0.15.1/commonmark.net.0.15.1.nupkg.sha512",
     "/Users/mitsugi/.nuget/packages/microsoft.aspnetcore.authorization/3.1.3/microsoft.aspnetcore.authorization.3.1.3.nupkg.sha512",
     "/Users/mitsugi/.nuget/packages/microsoft.aspnetcore.components/3.1.3/microsoft.aspnetcore.components.3.1.3.nupkg.sha512",
     "/Users/mitsugi/.nuget/packages/microsoft.aspnetcore.components.analyzers/3.1.3/microsoft.aspnetcore.components.analyzers.3.1.3.nupkg.sha512",

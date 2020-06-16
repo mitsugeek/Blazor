@@ -1,0 +1,17 @@
+﻿
+@page "/markdown"
+@using example.Shared
+
+<textarea @bind="str" style="width:100%;height:300px;" />
+
+<div>
+    @CommonMark.CommonMarkConverter.Convert(str)
+</div>
+
+<div class="markdown-body">
+    @((MarkupString)CommonMark.CommonMarkConverter.Convert(str))
+</div>
+
+@code {
+    private string str;
+}

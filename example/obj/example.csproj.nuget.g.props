@@ -20,5 +20,6 @@
     <PkgMicrosoft_AspNetCore_Components_WebAssembly_Runtime Condition=" '$(PkgMicrosoft_AspNetCore_Components_WebAssembly_Runtime)' == '' ">/Users/mitsugi/.nuget/packages/microsoft.aspnetcore.components.webassembly.runtime/3.2.0</PkgMicrosoft_AspNetCore_Components_WebAssembly_Runtime>
     <PkgMicrosoft_AspNetCore_Components_WebAssembly_DevServer Condition=" '$(PkgMicrosoft_AspNetCore_Components_WebAssembly_DevServer)' == '' ">/Users/mitsugi/.nuget/packages/microsoft.aspnetcore.components.webassembly.devserver/3.2.0</PkgMicrosoft_AspNetCore_Components_WebAssembly_DevServer>
     <PkgMicrosoft_AspNetCore_Components_WebAssembly_Build Condition=" '$(PkgMicrosoft_AspNetCore_Components_WebAssembly_Build)' == '' ">/Users/mitsugi/.nuget/packages/microsoft.aspnetcore.components.webassembly.build/3.2.0</PkgMicrosoft_AspNetCore_Components_WebAssembly_Build>
+    <PkgCommonMark_NET Condition=" '$(PkgCommonMark_NET)' == '' ">/Users/mitsugi/.nuget/packages/commonmark.net/0.15.1</PkgCommonMark_NET>
   </PropertyGroup>
 </Project>
