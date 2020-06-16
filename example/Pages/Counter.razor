@@ -1,8 +1,11 @@
 ﻿@page "/counter"
+@using example.Shared
 
 <h1>Counter</h1>
 
 <p>Current count: @currentCount</p>
+
+<p>Singleton count: @SingletonCounter.GetInstance().currentCount</p>
 
 <button class="btn btn-primary" @onclick="IncrementCount">Click me</button>
 
@@ -13,5 +16,6 @@
     {
         Console.WriteLine("IncrementCount");
         currentCount++;
+        SingletonCounter.GetInstance().currentCount++;
     }
 }
